@@ -1,0 +1,54 @@
+
+.main__block-1 .sm-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.main__name {
+  position: absolute;
+  margin-top: 230px;
+  z-index: 5;
+}
+.main__surname {
+  margin: 0;
+  font-size: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+
+}
+.main__frontend-developer {
+  margin-top: 27px;
+  color: #8993ad;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.button_orange {
+  width: 270px;
+  height: 60px;
+  margin-top: 50px;
+
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: #ff4e2e;
+  border: 0;
+}
+.main__photo-block {
+  margin-left: 900px;
+}
+.main__helper {
+  position: relative;
+}
+.svg {
+  width: 813px;
+  height: 651px;
+}
+.main__img {
+  position: absolute;
+  height: 100%;
+  bottom: 5px;;
+  left: 80px;
+  width: 438px;
+  max-width: initial;
+}

@@ -1,0 +1,89 @@
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.sm-grid {
+  max-width: 1220px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.sm-grid.header__center{
+  margin-bottom: 20px;
+}
+
+.header__menu_left {
+  width: 100%;
+  max-width: 300px;
+  margin: auto 0;
+}
+.header__navigation{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.header a:hover {
+  color: #f53f4f;
+  border-bottom: 1px solid #f53f4f;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+}
+.button_invisible {
+  display: none;
+  width: 25px;
+  height: 20px;
+  margin: auto 25px;
+
+  background: url(../img/three-line.png) center no-repeat;
+
+  border: 0;
+}
+.header__menu_right {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 470px;
+  align-items: center;
+}
+.header_number {
+  margin-right: 25px;
+  align-self: center;
+
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+}
+.button_pink-border {
+  width: 207px;
+  height: 45px;
+
+  border: 1px solid #f82370;
+  background: none;
+  color: #f53f4f;
+}
+.button_phone {
+  display: none;
+  width: 30px;
+  height: 26px;
+  margin-right: 25px;
+
+  border: 0;
+  background: url(../img/phone.png) no-repeat;
+}
+.header__menu_disable {
+  display: none;
+  width: 100%;
+  padding: 20px;
+}
+.header__navigation_disable {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

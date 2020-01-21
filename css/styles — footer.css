@@ -1,0 +1,67 @@
+
+
+
+
+.footer__top {
+  margin: 77px auto 81px;
+  flex-wrap: wrap;
+}
+.footer__top .sm-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__menu {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #8993ad;
+}
+.footer__menu_link {
+  margin-bottom: 17px;
+}
+.footer__center_icon {
+  margin-bottom: 35px;
+}
+.icon-mail-alt {
+  color: #ff2f96;
+  font-size: 25px;
+}
+.contacts {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.icon-phone {
+  color: #ff2f96;
+  font-size: 25px;
+}
+.footer__right .button_orange {
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.footer__right .button_pink-border {
+  margin-bottom: 20px;
+}
+.vk, .twitter, .ig, .facebook { 
+  display: inline-block; 
+  background: url('../img/sprite.png') no-repeat;
+  margin-right: 30px;
+}
+ 
+.vk { background-position: -10px -0px; width: 35px; height: 21px; }
+.twitter { background-position: -10px -31px; width: 29px; height: 25px; }
+.ig { background-position: -10px -66px; width: 25px; height: 25px; }
+.facebook { background-position: -10px -101px; width: 16px; height: 28px; }
+
+.footer__bottom {
+  background: #31293c;
+  color: white;
+  font-family: Roboto, sans-serif;
+  text-align: center;  
+  padding: 32px 0;
+}
+

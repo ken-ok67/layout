@@ -1,0 +1,29 @@
+
+.main__block-2 {
+  margin-top: 102px;
+  text-align: center;
+}
+h2 {
+  font-size: 54px;
+  margin-bottom: 100px;
+}
+.main__icons {
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto, sans-serif;
+  color: #8993ad;
+  font-size: 20px;
+}
+.main_icon {
+  text-align: center;
+  max-width: 300px;
+}
+.part-do-icons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  min-width: 505px;
+}
+.main__block-2 .button_orange {
+  margin-top: 100px;
+}
