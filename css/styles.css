@@ -145,13 +145,293 @@ p {
   font-size: 14px;
 }
 
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.sm-grid {
+  max-width: 1220px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.sm-grid.header__center{
+  margin-bottom: 20px;
+}
+
+.header__menu_left {
+  width: 100%;
+  max-width: 300px;
+  margin: auto 0;
+}
+.header__navigation{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.header a:hover {
+  color: #f53f4f;
+  border-bottom: 1px solid #f53f4f;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+}
+.button_invisible {
+  display: none;
+  width: 25px;
+  height: 20px;
+  margin: auto 25px;
+
+  background: url(../img/three-line.png) center no-repeat;
+
+  border: 0;
+}
+.header__menu_right {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 470px;
+  align-items: center;
+}
+.header_number {
+  margin-right: 25px;
+  align-self: center;
+
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+}
+.button_pink-border {
+  width: 207px;
+  height: 45px;
+
+  border: 1px solid #f82370;
+  background: none;
+  color: #f53f4f;
+}
+.button_phone {
+  display: none;
+  width: 30px;
+  height: 26px;
+  margin-right: 25px;
+
+  border: 0;
+  background: url(../img/phone.png) no-repeat;
+}
+.header__menu_disable {
+  display: none;
+  width: 100%;
+  padding: 20px;
+}
+.header__navigation_disable {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+.main__block-1 .sm-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.main__name {
+  position: absolute;
+  margin-top: 230px;
+  z-index: 5;
+}
+.main__surname {
+  margin: 0;
+  font-size: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+
+}
+.main__frontend-developer {
+  margin-top: 27px;
+  color: #8993ad;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.button_orange {
+  width: 270px;
+  height: 60px;
+  margin-top: 50px;
+
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: #ff4e2e;
+  border: 0;
+}
+.main__photo-block {
+  margin-left: 900px;
+}
+.main__helper {
+  position: relative;
+}
+.svg {
+  width: 813px;
+  height: 651px;
+}
+.main__img {
+  position: absolute;
+  height: 100%;
+  bottom: 5px;;
+  left: 80px;
+  width: 438px;
+  max-width: initial;
+}
 
 
 
 
 
 
+.main__block-2 {
+  margin-top: 102px;
+  text-align: center;
+}
+h2 {
+  font-size: 54px;
+  margin-bottom: 100px;
+}
+.main__icons {
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto, sans-serif;
+  color: #8993ad;
+  font-size: 20px;
+}
+.main_icon {
+  text-align: center;
+  max-width: 300px;
+}
+.part-do-icons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  min-width: 505px;
+}
+.main__block-2 .button_orange {
+  margin-top: 100px;
+}
 
+
+
+.main__block-3 {
+  text-align: center; 
+  margin: 200px auto 100px;
+}
+.block-3_signature {
+  margin-top: 30px;
+  text-align: center;
+  color: #8993ad;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+.main__block-4 {
+  width: 100%;
+  
+  background: linear-gradient(to right top, #ff8f5a, #ff2f96);
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+.s-grid {
+  max-width: 970px;
+  margin: 0 auto;
+  padding-top: 88px;
+  padding-bottom: 90px;
+}
+.main__block-4 h2 {
+  font-size: 44px;
+  margin-bottom: 42px;
+}
+.star {
+  display: flex;
+}
+.one-star {
+  padding-right: 0.4rem;
+}
+
+
+
+
+.footer__top {
+  margin: 77px auto 81px;
+  flex-wrap: wrap;
+}
+.footer__top .sm-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__menu {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #8993ad;
+}
+.footer__menu_link {
+  margin-bottom: 17px;
+}
+.footer__center_icon {
+  margin-bottom: 35px;
+}
+.icon-mail-alt {
+  color: #ff2f96;
+  font-size: 25px;
+}
+.contacts {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.icon-phone {
+  color: #ff2f96;
+  font-size: 25px;
+}
+.footer__right .button_orange {
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.footer__right .button_pink-border {
+  margin-bottom: 20px;
+}
+.vk, .twitter, .ig, .facebook { 
+  display: inline-block; 
+  background: url('../img/sprite.png') no-repeat;
+  margin-right: 30px;
+}
+ 
+.vk { background-position: -10px -0px; width: 35px; height: 21px; }
+.twitter { background-position: -10px -31px; width: 29px; height: 25px; }
+.ig { background-position: -10px -66px; width: 25px; height: 25px; }
+.facebook { background-position: -10px -101px; width: 16px; height: 28px; }
+
+.footer__bottom {
+  background: #31293c;
+  color: white;
+  font-family: Roboto, sans-serif;
+  text-align: center;  
+  padding: 32px 0;
+}
 
 
 
