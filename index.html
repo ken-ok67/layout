@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" type="text/css" href="dist/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="dist/css/all_css.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/styles-slider.css">
 
     <link rel="stylesheet" href="dist/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="dist/owlcarousel/owl.theme.default.min.css">
@@ -20,8 +21,13 @@
     <link rel="stylesheet" href="dist/fontello/css/fontello-ie7-codes.css" type="text/css" />
 
     <script src="dist/js/jquery.js"></script>
-    <script src="dist/js/js-min.js"></script>
+    <script src="dist/js/js.js"></script>
     <script src="dist/owlcarousel/owl.carousel.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
@@ -29,16 +35,26 @@
       <form class="popup" action="mailto:kent060798@yandex.ru" enctype="multipart/form-data" method="post">    
         <h2> Ваши данные </h2>
 
-        <input class="family-name" name="family-name" type="text" placeholder="Ваше имя*" required>    
-        <input class="telephone-number" name="telephone-number" type="text" placeholder="Телефон*" required>
-        <input class="e-mail" name="e-mail" type="email" placeholder="Ваш Email*" required>
+        <lable>
+        	<input class="family-name" name="family-name" type="text" placeholder="Ваше имя*" required>
+        </lable>  
+
+        <lable>
+        	<input class="telephone-number" name="telephone-number" type="text" placeholder="Телефон*" required>
+        </lable>
+
+        <lable>
+        	<input class="e-mail" name="e-mail" type="email" placeholder="Ваш Email*" required>
+        </lable>
 
         <label>
           <input type="radio" class="radioButton" required> 
-          <span>Я принимаю условия <a href=""> политики кинфидециальности </a> и даю согласие на обработку персональных данных.</span>
+          <span>Я принимаю условия <a href="tel:+79155286269"> политики кинфидециальности </a> и даю согласие на обработку персональных данных.</span>
         </label>
 
-        <input class="button popup-button" type="button" value="Отправить заявку">     
+        <lable>
+        	<input class="button popup-button" type="button" value="Отправить заявку">
+        </lable>   
       </form>
     </section>
 
@@ -55,7 +71,7 @@
         <div class="header__menu_right">
           <button class="button button_invisible"> </button>
 
-          <div class="header_number"> <a href="">+7 (915) 528-62-69</a></div> 
+          <div class="header_number"> <a href="tel:+79155286269">+7 (915) 528-62-69</a></div> 
 
           <button class="button button_pink-border">Заказать звонок</button>
           <button aria-label="Close" class="button button_phone"></button>
@@ -221,9 +237,9 @@
           </nav>
 
           <div class="footer__center">
-            <div class="footer__center_icon"> <a class="icon-phone" href="telTo:+79155286269"></a><a class="contacts">+7 (915) 528-62-69</a> </div> 
+            <div class="footer__center_icon"> <a class="icon-phone" href="tel:+79155286269"></a><a class="contacts" href="tel:+79155286269">+7 (915) 528-62-69</a> </div> 
 
-            <div class="footer__center_icon"> <a class="icon-mail-alt" href="mailTo:kent060798@yandex.ru"></a><a class="contacts">kent060798@yandex.ru</a> </div>
+            <div class="footer__center_icon"> <a class="icon-mail-alt" href="mailto:kent060798@yandex.ru"></a><a class="contacts" href="mailto:kent060798@yandex.ru">kent060798@yandex.ru</a> </div>
           </div>
 
           <div class="footer__right">
@@ -232,7 +248,7 @@
             <button class="button button_orange">Заказать звонок</button>
 -->
             <div>
-              <a aria-label="Back to the page" class="vk" href="vk.com/helga_kuz" target="_blank"> </a>
+              <a aria-label="Back to the page" class="vk" href="https://vk.com/helga_kuz" target="_blank"> </a>
               <a aria-label="Back to the page" class="facebook" href="#" target="_blank"> </a>
               <a aria-label="Back to the page" class="twitter" href="#" target="_blank"> </a>
               <a aria-label="Back to the page" class="ig" href="#" target="_blank"> </a>
